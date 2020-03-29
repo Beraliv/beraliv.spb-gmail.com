@@ -1,2 +1,3 @@
-# beraliv.spb-gmail.com
-carousel
+# Carousel
+
+Carousel on HTML, CSS and pure JS
