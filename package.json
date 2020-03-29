@@ -1,0 +1,28 @@
+{
+  "name": "carousel",
+  "version": "1.0.0",
+  "description": "js-carousel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beraliv/carousel.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Alexey Berezin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Beraliv/carousel/issues"
+  },
+  "homepage": "https://github.com/Beraliv/carousel#readme",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}

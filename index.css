@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+  height: 500px;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.left-arrow:after {
+  content: '<';
+}
+.right-arrow:after {
+  content: '>';
+}
+
+.left-arrow,
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  color: black;
+  cursor: pointer;
+}
+
+.left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
+}
+
+.image-off-left,
+.main-image,
+.image-off-right {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.image-off-left {
+  left: -100%;
+}
+
+.image-off-right {
+  right: -100%;
+}
+
+.main-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
